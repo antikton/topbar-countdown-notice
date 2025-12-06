@@ -1,13 +1,13 @@
 # Topbar Countdown Notice
 
-[![WordPress Plugin Version](https://img.shields.io/badge/version-1.0.3-blue.svg)](https://github.com/antikton/topbar-countdown-notice)
+[![WordPress Plugin Version](https://img.shields.io/badge/version-1.0.4-blue.svg)](https://github.com/antikton/topbar-countdown-notice)
 [![WordPress](https://img.shields.io/badge/wordpress-5.0%2B-blue.svg)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/php-7.4%2B-purple.svg)](https://php.net/)
 [![License](https://img.shields.io/badge/license-GPL--2.0%2B-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 
 A fully functional WordPress plugin that displays a customizable top bar with optional countdown timer and advanced scheduling capabilities.
 
-![Topbar Countdown Notice Banner](https://via.placeholder.com/1200x300/2c3e50/ffffff?text=Topbar+Countdown+Notice)
+![Topbar Countdown Notice Banner](assets/banner-1200x300.png)
 
 ## 📋 Table of Contents
 
@@ -209,29 +209,29 @@ Use these classes in your Custom CSS field:
 ### Frontend Display
 
 #### Active Countdown Bar
-![Active Countdown Bar](screenshots/screenshot-1.png)
+![Active Countdown Bar](assets/screenshot-1.png)
 *Example of the top bar with active countdown timer showing urgency for a limited-time offer*
 
 #### Alternative Content (After Expiration)
-![Alternative Content](screenshots/screenshot-2.png)
+![Alternative Content](assets/screenshot-2.png)
 *Example of alternative content displayed after the countdown expires*
 
 ### Admin Settings Panels
 
 #### 1. General & Schedule Settings
-![General Settings](screenshots/screenshot-3.png)
+![General Settings](assets/screenshot-3.png)
 *Configure activation status and scheduling options for when the bar should appear*
 
 #### 2. Content & Countdown Settings
-![Content Settings](screenshots/screenshot-4.png)
+![Content Settings](assets/screenshot-4.png)
 *Set up your main content, call-to-action buttons, and countdown timer configuration*
 
 #### 3. Action on Finish Settings
-![Finish Action Settings](screenshots/screenshot-5.png)
+![Finish Action Settings](assets/screenshot-5.png)
 *Define what happens when the countdown ends - hide bar or show alternative content*
 
 #### 4. Appearance Settings
-![Appearance Settings](screenshots/screenshot-6.png)
+![Appearance Settings](assets/screenshot-6.png)
 *Customize colors, padding, and add custom CSS for advanced styling*
 
 ## ❓ Frequently Asked Questions
@@ -340,6 +340,15 @@ This plugin follows:
 - Security best practices (sanitization, escaping, nonce verification)
 
 ## 📝 Changelog
+
+### Version 1.0.4 (2024-12-07)
+
+**Added:**
+- Professional banner images in multiple sizes for WordPress.org (772x250, 1544x500, 1200x300)
+
+**Improved:**
+- Reorganized assets: moved screenshots and banners to assets/ folder for WordPress.org compliance
+- Updated all documentation to reflect new asset structure
 
 ### Version 1.0.3 (2024-12-07)
 
