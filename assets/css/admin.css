@@ -1,0 +1,257 @@
+/**
+ * Admin styles for Topbar Countdown Notice
+ */
+
+/* Remove dashicons from postbox headers */
+.postbox .hndle .dashicons,
+.tcn-postbox .hndle .dashicons {
+    display: none !important;
+}
+
+/* Adjust spacing after removing icons */
+.postbox .hndle,
+.tcn-postbox .hndle {
+    padding-left: 12px !important;
+}
+
+/* Admin wrapper with sidebar */
+.tcn-admin-wrapper {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tcn-admin-main {
+    flex: 1;
+    max-width: 800px;
+}
+
+.tcn-admin-sidebar {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.tcn-sidebar-box {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.tcn-sidebar-box h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tcn-sidebar-box ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.tcn-sidebar-box li {
+    margin-bottom: 8px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.tcn-sidebar-box p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+
+.tcn-sidebar-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* PRO sidebar box */
+.tcn-sidebar-pro {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    color: #fff;
+}
+
+.tcn-sidebar-pro h3 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.tcn-sidebar-pro p {
+    color: #fff;
+}
+
+.tcn-sidebar-pro strong {
+    color: #fff;
+}
+
+.tcn-pro-features {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.tcn-pro-features li {
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.tcn-pro-features li:last-child {
+    border-bottom: none;
+}
+
+.tcn-pro-button {
+    display: block;
+    background: #fff;
+    color: #667eea;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 15px 0 10px 0;
+    transition: all 0.3s ease;
+}
+
+.tcn-pro-button:hover {
+    background: #f0f0f0;
+    color: #667eea;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tcn-pro-note {
+    font-size: 11px;
+    text-align: center;
+    opacity: 0.9;
+    font-style: italic;
+}
+
+/* Form table styling */
+.form-table th {
+    width: 200px;
+}
+
+.tcn-color-picker {
+    max-width: 100px;
+}
+
+/* Conditional fields styling */
+.tcn-conditional-field {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #2271b1;
+}
+
+.tcn-conditional-field.hidden {
+    display: none;
+}
+
+/* Settings sections */
+#topbar-countdown-notice-settings h2.title,
+#topbar-countdown-notice-settings .tcn-tab-content h2,
+#topbar-countdown-notice-settings .postbox .hndle,
+#topbar-countdown-notice-settings .stuffbox>h3,
+#topbar-countdown-notice-settings h3.hndle {
+    font-size: 1.5em !important;
+    margin: 1.8em 0 1.2em !important;
+    padding: 15px !important;
+    border-bottom: 1px solid #dcdcde !important;
+    background-color: #f8f9fa !important;
+    border-radius: 4px !important;
+    color: #1d2327 !important;
+    line-height: 1.4 !important;
+}
+
+/* Add padding to form tables after h2 */
+#topbar-countdown-notice-settings h2.title + .form-table,
+#topbar-countdown-notice-settings .tcn-tab-content h2 + .form-table {
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/* Add spacing between form rows */
+#topbar-countdown-notice-settings .form-table tr:not(:last-child) {
+    margin-bottom: 15px !important;
+    display: block !important;
+    padding-bottom: 15px !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+}
+
+/* Add padding to form table cells */
+#topbar-countdown-notice-settings .form-table th,
+#topbar-countdown-notice-settings .form-table td {
+    padding: 10px 0 !important;
+    display: table-cell !important;
+}
+
+#topbar-countdown-notice-settings .form-table th {
+    padding-right: 20px !important;
+    width: 200px !important;
+}
+
+/* Ensure form tables have proper spacing and styling */
+#topbar-countdown-notice-settings .form-table {
+    margin-top: 20px !important;
+    background: #fff !important;
+    border: 1px solid #ccd0d4 !important;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04) !important;
+    padding: 20px !important;
+    border-radius: 4px !important;
+    width: 100% !important;
+}
+
+/* Datetime input styling */
+input[type="datetime-local"] {
+    padding: 5px 8px;
+}
+
+/* URL field with checkbox below */
+.form-table input[type="url"]+br+label {
+    margin-top: 8px;
+    display: inline-block;
+}
+
+/* Editor wrapper */
+.wp-editor-wrap {
+    max-width: 600px;
+}
+
+/* Help text */
+.description {
+    color: #646970;
+    font-style: italic;
+}
+
+.description code {
+    background: #f0f0f1;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+/* Custom CSS textarea */
+textarea.code {
+    font-family: Consolas, Monaco, monospace;
+    font-size: 13px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .tcn-admin-wrapper {
+        flex-direction: column;
+    }
+
+    .tcn-admin-sidebar {
+        width: 100%;
+        max-width: 800px;
+    }
+}

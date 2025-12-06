@@ -1,0 +1,129 @@
+/**
+ * Frontend styles for Topbar Countdown Notice
+ */
+
+.tcn-topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 9999;
+	padding: 12px 20px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.tcn-topbar-inner {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.tcn-content {
+	flex: 1 1 auto;
+	text-align: center;
+}
+
+.tcn-content p {
+	margin: 0;
+	padding: 0;
+}
+
+.tcn-content a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.tcn-content a:hover {
+	opacity: 0.8;
+}
+
+.tcn-countdown-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex-shrink: 0;
+}
+
+.tcn-countdown-prefix {
+	font-weight: 500;
+}
+
+.tcn-countdown {
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	white-space: nowrap;
+}
+
+.tcn-link {
+	display: inline-block;
+	padding: 8px 20px;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: inherit;
+	text-decoration: none;
+	border-radius: 4px;
+	font-weight: 600;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	flex-shrink: 0;
+}
+
+.tcn-link:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	transform: translateY(-1px);
+	color: inherit;
+}
+
+.tcn-link:active {
+	transform: translateY(0);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+	.tcn-topbar {
+		padding: 10px 15px;
+		font-size: 13px;
+	}
+	
+	.tcn-topbar-inner {
+		flex-direction: column;
+		gap: 10px;
+	}
+	
+	.tcn-content {
+		text-align: center;
+	}
+	
+	.tcn-countdown {
+		font-size: 14px;
+	}
+	
+	.tcn-link {
+		padding: 6px 16px;
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.tcn-topbar {
+		padding: 8px 12px;
+		font-size: 12px;
+	}
+	
+	.tcn-countdown-wrapper {
+		flex-direction: column;
+		gap: 4px;
+		text-align: center;
+	}
+	
+	.tcn-countdown {
+		font-size: 13px;
+	}
+}
