@@ -1,0 +1,15 @@
+{
+  "domain": "topbar-countdown-notice",
+  "packageName": "Topbar Countdown Notice",
+  "mainFile": "topbar-countdown-notice.php",
+  "textDomain": "topbar-countdown-notice",
+  "potFilename": "languages/topbar-countdown.pot",
+  "exclude": ["node_modules/", "vendor/", "tests/", "languages/", ".git/", "*.min.js"],
+  "mainFileOnly": false,
+  "skipJs": false,
+  "skipAudit": true,
+  "headers": {
+    "Language": "en",
+    "X-Domain": "topbar-countdown-notice"
+  }
+}
