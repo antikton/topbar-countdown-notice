@@ -1,0 +1,64 @@
+{
+    "name": "antikton/topbar-countdown-notice",
+    "description": "A fully functional WordPress plugin that displays a customizable top bar with optional countdown timer and advanced scheduling capabilities. Perfect for sales, events, announcements, and revealing discount coupons.",
+    "type": "wordpress-plugin",
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "topbar",
+        "countdown",
+        "timer",
+        "notification",
+        "notice",
+        "announcement",
+        "sale",
+        "promotion",
+        "coupon",
+        "discount",
+        "scheduling"
+    ],
+    "homepage": "https://github.com/antikton/topbar-countdown-notice",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Eduardo Pagán",
+            "homepage": "https://github.com/antikton",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/antikton/topbar-countdown-notice/issues",
+        "source": "https://github.com/antikton/topbar-countdown-notice",
+        "docs": "https://github.com/antikton/topbar-countdown-notice#readme",
+        "forum": "https://wordpress.org/support/plugin/topbar-countdown-notice/"
+    },
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^1.0 || ^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "wp-coding-standards/wpcs": "^3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "topbar-countdown-notice.php"
+        ]
+    },
+    "extra": {
+        "installer-name": "topbar-countdown-notice"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "phpcs": "phpcs --standard=WordPress .",
+        "phpcbf": "phpcbf --standard=WordPress ."
+    }
+}
