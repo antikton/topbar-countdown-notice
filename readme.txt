@@ -3,7 +3,7 @@ Contributors: antikton
 Tags: topbar, countdown, notice, notification, schedule
 Requires at least: 5.0
 Tested up to: 6.9
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -61,6 +61,10 @@ Absolutely! This is a popular use case. Set up a countdown to build anticipation
 
 == Changelog ==
 
+= 1.0.5 =
+*   Added: French (fr_FR) translation - Full plugin translation for French-speaking users
+*   Improved: Internationalization support with complete .po file for French language
+
 = 1.0.4 =
 *   Added: Professional banner images in multiple sizes for WordPress.org (772x250, 1544x500, 1200x300)
 *   Improved: Reorganized assets - moved screenshots and banners to assets/ folder for WordPress.org compliance
@@ -95,6 +99,9 @@ Absolutely! This is a popular use case. Set up a countdown to build anticipation
 *   Full customization options.
 
 == Upgrade Notice ==
+
+= 1.0.5 =
+Added complete French translation (fr_FR) for French-speaking users. Plugin now fully available in French.
 
 = 1.0.4 =
 Added professional banner images and reorganized assets for WordPress.org. All screenshots and banners now in assets/ folder following WordPress.org best practices.

@@ -1,6 +1,6 @@
 # Topbar Countdown Notice
 
-[![WordPress Plugin Version](https://img.shields.io/badge/version-1.0.4-blue.svg)](https://github.com/antikton/topbar-countdown-notice)
+[![WordPress Plugin Version](https://img.shields.io/badge/version-1.0.5-blue.svg)](https://github.com/antikton/topbar-countdown-notice)
 [![WordPress](https://img.shields.io/badge/wordpress-5.0%2B-blue.svg)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/php-7.4%2B-purple.svg)](https://php.net/)
 [![License](https://img.shields.io/badge/license-GPL--2.0%2B-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
@@ -340,6 +340,14 @@ This plugin follows:
 - Security best practices (sanitization, escaping, nonce verification)
 
 ## 📝 Changelog
+
+### Version 1.0.5 (2024-12-07)
+
+**Added:**
+- French (fr_FR) translation - Full plugin translation for French-speaking users
+
+**Improved:**
+- Internationalization support with complete .po file for French language
 
 ### Version 1.0.4 (2024-12-07)
 
