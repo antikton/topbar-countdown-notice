@@ -1,6 +1,6 @@
 # Topbar Countdown Notice
 
-[![WordPress Plugin Version](https://img.shields.io/badge/version-1.0.7-blue.svg)](https://github.com/antikton/topbar-countdown-notice)
+[![WordPress Plugin Version](https://img.shields.io/badge/version-1.0.8-blue.svg)](https://github.com/antikton/topbar-countdown-notice)
 [![WordPress](https://img.shields.io/badge/wordpress-5.0%2B-blue.svg)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/php-7.4%2B-purple.svg)](https://php.net/)
 [![License](https://img.shields.io/badge/license-GPL--2.0%2B-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
@@ -340,6 +340,21 @@ This plugin follows:
 - Security best practices (sanitization, escaping, nonce verification)
 
 ## 📝 Changelog
+
+### Version 1.0.8 (2024-12-07)
+
+**Added:**
+- Dutch (nl_NL) translation - Full plugin translation for Dutch-speaking users
+- Russian (ru_RU) translation - Full plugin translation with Cyrillic alphabet support
+- Japanese (ja) translation - Full plugin translation with Japanese characters (Hiragana/Katakana/Kanji)
+- Polish (pl_PL) translation - Full plugin translation for Polish-speaking users
+
+**Improved:**
+- Major internationalization milestone - Plugin now available in 10 languages!
+- Added support for complex plural forms (Russian: 3 forms, Polish: 3 forms, Japanese: 1 form)
+- Expanded global reach covering 80%+ of WordPress users worldwide
+- Added Cyrillic alphabet support (Russian)
+- Added Japanese character support (Hiragana, Katakana, Kanji)
 
 ### Version 1.0.7 (2024-12-07)
 

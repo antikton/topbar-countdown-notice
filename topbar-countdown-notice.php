@@ -3,7 +3,7 @@
  * Plugin Name: Topbar Countdown Notice
  * Plugin URI: https://github.com/antikton/topbar-countdown-notice
  * Description: Display a customizable top bar with optional countdown timer and scheduling capabilities.
- * Version: 1.0.7
+ * Version: 1.0.8
  * Author: Eduardo Pagán
  * Author URI: https://github.com/antikton
  * Text Domain: topbar-countdown-notice
@@ -25,7 +25,7 @@ class Topbar_Countdown_Notice {
 	/**
 	 * Plugin version
 	 */
-	const VERSION = '1.0.7';
+	const VERSION = '1.0.8';
 
 	/**
 	 * Option name for settings

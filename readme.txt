@@ -3,7 +3,7 @@ Contributors: antikton
 Tags: topbar, countdown, notice, notification, schedule
 Requires at least: 5.0
 Tested up to: 6.9
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -61,6 +61,14 @@ Absolutely! This is a popular use case. Set up a countdown to build anticipation
 
 == Changelog ==
 
+= 1.0.8 =
+*   Added: Dutch (nl_NL) translation - Full plugin translation for Dutch-speaking users
+*   Added: Russian (ru_RU) translation - Full plugin translation with Cyrillic alphabet support
+*   Added: Japanese (ja) translation - Full plugin translation with Japanese characters
+*   Added: Polish (pl_PL) translation - Full plugin translation for Polish-speaking users
+*   Improved: Major internationalization milestone - Plugin now available in 10 languages!
+*   Improved: Added support for complex plural forms (Russian, Polish, Japanese)
+
 = 1.0.7 =
 *   Added: Italian (it_IT) translation - Full plugin translation for Italian-speaking users
 *   Added: Brazilian Portuguese (pt_BR) translation - Full plugin translation for Brazilian users
@@ -108,6 +116,9 @@ Absolutely! This is a popular use case. Set up a countdown to build anticipation
 *   Full customization options.
 
 == Upgrade Notice ==
+
+= 1.0.8 =
+Major update! Added 4 new languages: Dutch, Russian, Japanese, and Polish. Plugin now available in 10 languages covering 80%+ of WordPress users worldwide!
 
 = 1.0.7 =
 Added Italian (it_IT) and Brazilian Portuguese (pt_BR) translations. Plugin now available in 6 languages!

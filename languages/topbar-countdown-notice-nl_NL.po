@@ -1,0 +1,348 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Topbar Countdown Notice\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-06 16:03+0000\n"
+"PO-Revision-Date: 2025-12-07 12:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.9; php-7.4.33\n"
+"X-Domain: topbar-countdown-notice"
+
+#: topbar-countdown-notice.php:651
+msgid "Action button/link"
+msgstr "Actieknop/link"
+
+#: topbar-countdown-notice.php:167 topbar-countdown-notice.php:723
+msgid "Action on Finish"
+msgstr "Actie bij Voltooiing"
+
+#: topbar-countdown-notice.php:129
+msgid "Activate Bar"
+msgstr "Balk Activeren"
+
+#: topbar-countdown-notice.php:289
+msgid "Activate Countdown"
+msgstr "Aftelling Activeren"
+
+#: topbar-countdown-notice.php:644
+msgid "Add custom CSS to style the top bar. Available classes:"
+msgstr "Voeg aangepaste CSS toe om de bovenbalk te stylen. Beschikbare klassen:"
+
+#: topbar-countdown-notice.php:223
+msgid "Alternative Background Color"
+msgstr "Alternatieve Achtergrondkleur"
+
+#: topbar-countdown-notice.php:214
+msgid "Alternative Colors"
+msgstr "Alternatieve Kleuren"
+
+#: topbar-countdown-notice.php:194
+msgid "Alternative Link"
+msgstr "Alternatieve Link"
+
+#: topbar-countdown-notice.php:204
+msgid "Alternative Link Button Text"
+msgstr "Alternatieve Link Knoptekst"
+
+#: topbar-countdown-notice.php:184
+msgid "Alternative Text"
+msgstr "Alternatieve Tekst"
+
+#: topbar-countdown-notice.php:233
+msgid "Alternative Text Color"
+msgstr "Alternatieve Tekstkleur"
+
+#: topbar-countdown-notice.php:779
+msgid "Always test on smaller screens."
+msgstr "Test altijd op kleinere schermen."
+
+#: topbar-countdown-notice.php:338 topbar-countdown-notice.php:727
+msgid "Appearance"
+msgstr "Weergave"
+
+#: topbar-countdown-notice.php:346
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: topbar-countdown-notice.php:243
+msgid "Bar Content"
+msgstr "Balkinhoud"
+
+#: topbar-countdown-notice.php:781
+msgid "Clarity:"
+msgstr "Duidelijkheid:"
+
+#: topbar-countdown-notice.php:427
+msgid ""
+"Configure when the bar should be visible. Leave both empty to always show "
+"the bar."
+msgstr ""
+"Configureer wanneer de balk zichtbaar moet zijn. Laat beide leeg om de balk "
+"altijd te tonen."
+
+#: topbar-countdown-notice.php:719
+msgid "Content & Countdown"
+msgstr "Inhoud & Aftelling"
+
+#: topbar-countdown-notice.php:780
+msgid "Contrast:"
+msgstr "Contrast:"
+
+#: topbar-countdown-notice.php:648
+msgid "Countdown container"
+msgstr "Aftelcontainer"
+
+#: topbar-countdown-notice.php:318
+msgid "Countdown Prefix Text"
+msgstr "Aftelling Voorvoegseltekst"
+
+#: topbar-countdown-notice.php:649
+msgid "Countdown prefix text"
+msgstr "Aftelling voorvoegseltekst"
+
+#: topbar-countdown-notice.php:299
+msgid "Countdown Target"
+msgstr "Aftelling Doel"
+
+#: topbar-countdown-notice.php:281
+msgid "Countdown Timer"
+msgstr "Aftelklok"
+
+#: topbar-countdown-notice.php:650
+msgid "Countdown timer"
+msgstr "Aftelklok"
+
+#: topbar-countdown-notice.php:629
+msgid "Custom colors"
+msgstr "Aangepaste kleuren"
+
+#: topbar-countdown-notice.php:406
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: topbar-countdown-notice.php:609
+msgid "Custom Date/Time"
+msgstr "Aangepaste Datum/Tijd"
+
+#: topbar-countdown-notice.php:308
+msgid "Custom Target Date/Time"
+msgstr "Aangepaste Doeldatum/Tijd"
+
+#: topbar-countdown-notice.php:1356
+msgid "d"
+msgstr "d"
+
+#: topbar-countdown-notice.php:415
+msgid "Debug Mode"
+msgstr "Debugmodus"
+
+#. Description of the plugin
+msgid ""
+"Display a customizable top bar with optional countdown timer and scheduling "
+"capabilities."
+msgstr ""
+"Toon een aanpasbare bovenbalk met optionele aftelklok en "
+"planningsfunctionaliteit."
+
+#: topbar-countdown-notice.php:332
+msgid "Display seconds in countdown"
+msgstr "Toon seconden in aftelling"
+
+#. Author of the plugin
+msgid "Eduardo Pagán"
+msgstr "Eduardo Pagán"
+
+#: topbar-countdown-notice.php:157
+msgid "End Date/Time"
+msgstr "Einddatum/Tijd"
+
+#: topbar-countdown-notice.php:780
+msgid "Ensure text is readable."
+msgstr "Zorg ervoor dat de tekst leesbaar is."
+
+#: topbar-countdown-notice.php:715
+msgid "General & Schedule"
+msgstr "Algemeen & Planning"
+
+#: topbar-countdown-notice.php:121
+msgid "General Settings"
+msgstr "Algemene Instellingen"
+
+#: topbar-countdown-notice.php:802
+msgid "Get Support"
+msgstr "Ondersteuning Krijgen"
+
+#: topbar-countdown-notice.php:1357
+msgid "h"
+msgstr "u"
+
+#: topbar-countdown-notice.php:481
+msgid "Hide the bar"
+msgstr "Verberg de balk"
+
+#. Author URI of the plugin
+msgid "https://github.com/antikton"
+msgstr "https://github.com/antikton"
+
+#. URI of the plugin
+msgid "https://github.com/antikton/topbar-countdown-notice"
+msgstr "https://github.com/antikton/topbar-countdown-notice"
+
+#: topbar-countdown-notice.php:646
+msgid "Inner content wrapper"
+msgstr "Binnenste inhoudswrapper"
+
+#: topbar-countdown-notice.php:781
+msgid "Keep messages short and sweet."
+msgstr "Houd berichten kort en bondig."
+
+#: topbar-countdown-notice.php:208 topbar-countdown-notice.php:275
+#: topbar-countdown-notice.php:1184 topbar-countdown-notice.php:1188
+#: topbar-countdown-notice.php:1365 topbar-countdown-notice.php:1427
+#: topbar-countdown-notice.php:1460
+msgid "Learn More"
+msgstr "Meer Informatie"
+
+#: topbar-countdown-notice.php:1358
+msgid "m"
+msgstr "m"
+
+#: topbar-countdown-notice.php:645
+msgid "Main bar container"
+msgstr "Hoofdbalkcontainer"
+
+#: topbar-countdown-notice.php:251
+msgid "Main Content"
+msgstr "Hoofdinhoud"
+
+#: topbar-countdown-notice.php:647
+msgid "Main content area"
+msgstr "Hoofdinhoudsgebied"
+
+#: topbar-countdown-notice.php:261
+msgid "Main Link"
+msgstr "Hoofdlink"
+
+#: topbar-countdown-notice.php:271
+msgid "Main Link Button Text"
+msgstr "Hoofdlink Knoptekst"
+
+#: topbar-countdown-notice.php:779
+msgid "Mobile:"
+msgstr "Mobiel:"
+
+#: topbar-countdown-notice.php:799
+msgid "Need help or have a feature request?"
+msgstr "Hulp nodig of een functieverzoek?"
+
+#: topbar-countdown-notice.php:536
+msgid "Open in new tab"
+msgstr "Openen in nieuw tabblad"
+
+#: topbar-countdown-notice.php:376
+msgid "Padding Bottom (px)"
+msgstr "Opvulling Onder (px)"
+
+#: topbar-countdown-notice.php:386
+msgid "Padding Left (px)"
+msgstr "Opvulling Links (px)"
+
+#: topbar-countdown-notice.php:396
+msgid "Padding Right (px)"
+msgstr "Opvulling Rechts (px)"
+
+#: topbar-countdown-notice.php:366
+msgid "Padding Top (px)"
+msgstr "Opvulling Boven (px)"
+
+#: topbar-countdown-notice.php:775
+msgid "Quick Tips"
+msgstr "Snelle Tips"
+
+#: topbar-countdown-notice.php:1359
+msgid "s"
+msgstr "s"
+
+#: topbar-countdown-notice.php:604
+msgid "Same as End Date/Time"
+msgstr "Hetzelfde als Einddatum/Tijd"
+
+#: topbar-countdown-notice.php:624
+msgid "Same as main colors"
+msgstr "Hetzelfde als hoofdkleuren"
+
+#: topbar-countdown-notice.php:765
+msgid "Save Changes"
+msgstr "Wijzigingen Opslaan"
+
+#: topbar-countdown-notice.php:139
+msgid "Scheduling"
+msgstr "Planning"
+
+#: topbar-countdown-notice.php:788
+msgid "Server Time"
+msgstr "Servertijd"
+
+#: topbar-countdown-notice.php:486
+msgid "Show alternative content"
+msgstr "Toon alternatieve inhoud"
+
+#: topbar-countdown-notice.php:419
+msgid "Show console.log messages in browser (for debugging)"
+msgstr "Toon console.log berichten in browser (voor debugging)"
+
+#: topbar-countdown-notice.php:293
+msgid "Show countdown timer"
+msgstr "Toon aftelklok"
+
+#: topbar-countdown-notice.php:328
+msgid "Show Seconds"
+msgstr "Toon Seconden"
+
+#: topbar-countdown-notice.php:133
+msgid "Show the top bar"
+msgstr "Toon de bovenbalk"
+
+#: topbar-countdown-notice.php:147
+msgid "Start Date/Time"
+msgstr "Startdatum/Tijd"
+
+#: topbar-countdown-notice.php:797
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: topbar-countdown-notice.php:356
+msgid "Text Color"
+msgstr "Tekstkleur"
+
+#: topbar-countdown-notice.php:99
+msgid "Topbar Countdown"
+msgstr "Bovenbalk Aftelling"
+
+#. Name of the plugin
+#: topbar-countdown-notice.php:98
+msgid "Topbar Countdown Notice"
+msgstr "Bovenbalk Aftelling Melding"
+
+#: topbar-countdown-notice.php:778
+msgid "Urgency:"
+msgstr "Urgentie:"
+
+#: topbar-countdown-notice.php:778
+msgid "Use the countdown to drive action."
+msgstr "Gebruik de aftelling om actie te stimuleren."
+
+#: topbar-countdown-notice.php:175
+msgid "When End Date/Time is Reached"
+msgstr "Wanneer Einddatum/Tijd Bereikt is"
+
+#: topbar-countdown-notice.php:591
+msgid "You can use HTML tags like <strong>, <em>, <span>, etc."
+msgstr "Je kunt HTML-tags gebruiken zoals <strong>, <em>, <span>, enz."

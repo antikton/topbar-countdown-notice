@@ -1,0 +1,348 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Topbar Countdown Notice\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-06 16:03+0000\n"
+"PO-Revision-Date: 2025-12-07 12:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.9; php-7.4.33\n"
+"X-Domain: topbar-countdown-notice"
+
+#: topbar-countdown-notice.php:651
+msgid "Action button/link"
+msgstr "Кнопка/ссылка действия"
+
+#: topbar-countdown-notice.php:167 topbar-countdown-notice.php:723
+msgid "Action on Finish"
+msgstr "Действие при Завершении"
+
+#: topbar-countdown-notice.php:129
+msgid "Activate Bar"
+msgstr "Активировать Панель"
+
+#: topbar-countdown-notice.php:289
+msgid "Activate Countdown"
+msgstr "Активировать Обратный Отсчёт"
+
+#: topbar-countdown-notice.php:644
+msgid "Add custom CSS to style the top bar. Available classes:"
+msgstr "Добавьте пользовательский CSS для стилизации верхней панели. Доступные классы:"
+
+#: topbar-countdown-notice.php:223
+msgid "Alternative Background Color"
+msgstr "Альтернативный Цвет Фона"
+
+#: topbar-countdown-notice.php:214
+msgid "Alternative Colors"
+msgstr "Альтернативные Цвета"
+
+#: topbar-countdown-notice.php:194
+msgid "Alternative Link"
+msgstr "Альтернативная Ссылка"
+
+#: topbar-countdown-notice.php:204
+msgid "Alternative Link Button Text"
+msgstr "Текст Кнопки Альтернативной Ссылки"
+
+#: topbar-countdown-notice.php:184
+msgid "Alternative Text"
+msgstr "Альтернативный Текст"
+
+#: topbar-countdown-notice.php:233
+msgid "Alternative Text Color"
+msgstr "Альтернативный Цвет Текста"
+
+#: topbar-countdown-notice.php:779
+msgid "Always test on smaller screens."
+msgstr "Всегда тестируйте на маленьких экранах."
+
+#: topbar-countdown-notice.php:338 topbar-countdown-notice.php:727
+msgid "Appearance"
+msgstr "Внешний Вид"
+
+#: topbar-countdown-notice.php:346
+msgid "Background Color"
+msgstr "Цвет Фона"
+
+#: topbar-countdown-notice.php:243
+msgid "Bar Content"
+msgstr "Содержимое Панели"
+
+#: topbar-countdown-notice.php:781
+msgid "Clarity:"
+msgstr "Ясность:"
+
+#: topbar-countdown-notice.php:427
+msgid ""
+"Configure when the bar should be visible. Leave both empty to always show "
+"the bar."
+msgstr ""
+"Настройте, когда панель должна быть видимой. Оставьте оба поля пустыми, "
+"чтобы панель отображалась всегда."
+
+#: topbar-countdown-notice.php:719
+msgid "Content & Countdown"
+msgstr "Содержимое и Обратный Отсчёт"
+
+#: topbar-countdown-notice.php:780
+msgid "Contrast:"
+msgstr "Контраст:"
+
+#: topbar-countdown-notice.php:648
+msgid "Countdown container"
+msgstr "Контейнер обратного отсчёта"
+
+#: topbar-countdown-notice.php:318
+msgid "Countdown Prefix Text"
+msgstr "Префикс Обратного Отсчёта"
+
+#: topbar-countdown-notice.php:649
+msgid "Countdown prefix text"
+msgstr "Префикс обратного отсчёта"
+
+#: topbar-countdown-notice.php:299
+msgid "Countdown Target"
+msgstr "Цель Обратного Отсчёта"
+
+#: topbar-countdown-notice.php:281
+msgid "Countdown Timer"
+msgstr "Таймер Обратного Отсчёта"
+
+#: topbar-countdown-notice.php:650
+msgid "Countdown timer"
+msgstr "Таймер обратного отсчёта"
+
+#: topbar-countdown-notice.php:629
+msgid "Custom colors"
+msgstr "Пользовательские цвета"
+
+#: topbar-countdown-notice.php:406
+msgid "Custom CSS"
+msgstr "Пользовательский CSS"
+
+#: topbar-countdown-notice.php:609
+msgid "Custom Date/Time"
+msgstr "Пользовательская Дата/Время"
+
+#: topbar-countdown-notice.php:308
+msgid "Custom Target Date/Time"
+msgstr "Пользовательская Целевая Дата/Время"
+
+#: topbar-countdown-notice.php:1356
+msgid "d"
+msgstr "д"
+
+#: topbar-countdown-notice.php:415
+msgid "Debug Mode"
+msgstr "Режим Отладки"
+
+#. Description of the plugin
+msgid ""
+"Display a customizable top bar with optional countdown timer and scheduling "
+"capabilities."
+msgstr ""
+"Отображайте настраиваемую верхнюю панель с опциональным таймером обратного "
+"отсчёта и возможностями планирования."
+
+#: topbar-countdown-notice.php:332
+msgid "Display seconds in countdown"
+msgstr "Отображать секунды в обратном отсчёте"
+
+#. Author of the plugin
+msgid "Eduardo Pagán"
+msgstr "Eduardo Pagán"
+
+#: topbar-countdown-notice.php:157
+msgid "End Date/Time"
+msgstr "Дата/Время Окончания"
+
+#: topbar-countdown-notice.php:780
+msgid "Ensure text is readable."
+msgstr "Убедитесь, что текст читаемый."
+
+#: topbar-countdown-notice.php:715
+msgid "General & Schedule"
+msgstr "Общие и Расписание"
+
+#: topbar-countdown-notice.php:121
+msgid "General Settings"
+msgstr "Общие Настройки"
+
+#: topbar-countdown-notice.php:802
+msgid "Get Support"
+msgstr "Получить Поддержку"
+
+#: topbar-countdown-notice.php:1357
+msgid "h"
+msgstr "ч"
+
+#: topbar-countdown-notice.php:481
+msgid "Hide the bar"
+msgstr "Скрыть панель"
+
+#. Author URI of the plugin
+msgid "https://github.com/antikton"
+msgstr "https://github.com/antikton"
+
+#. URI of the plugin
+msgid "https://github.com/antikton/topbar-countdown-notice"
+msgstr "https://github.com/antikton/topbar-countdown-notice"
+
+#: topbar-countdown-notice.php:646
+msgid "Inner content wrapper"
+msgstr "Внутренняя обёртка содержимого"
+
+#: topbar-countdown-notice.php:781
+msgid "Keep messages short and sweet."
+msgstr "Делайте сообщения короткими и ёмкими."
+
+#: topbar-countdown-notice.php:208 topbar-countdown-notice.php:275
+#: topbar-countdown-notice.php:1184 topbar-countdown-notice.php:1188
+#: topbar-countdown-notice.php:1365 topbar-countdown-notice.php:1427
+#: topbar-countdown-notice.php:1460
+msgid "Learn More"
+msgstr "Узнать Больше"
+
+#: topbar-countdown-notice.php:1358
+msgid "m"
+msgstr "м"
+
+#: topbar-countdown-notice.php:645
+msgid "Main bar container"
+msgstr "Основной контейнер панели"
+
+#: topbar-countdown-notice.php:251
+msgid "Main Content"
+msgstr "Основное Содержимое"
+
+#: topbar-countdown-notice.php:647
+msgid "Main content area"
+msgstr "Основная область содержимого"
+
+#: topbar-countdown-notice.php:261
+msgid "Main Link"
+msgstr "Основная Ссылка"
+
+#: topbar-countdown-notice.php:271
+msgid "Main Link Button Text"
+msgstr "Текст Кнопки Основной Ссылки"
+
+#: topbar-countdown-notice.php:779
+msgid "Mobile:"
+msgstr "Мобильные:"
+
+#: topbar-countdown-notice.php:799
+msgid "Need help or have a feature request?"
+msgstr "Нужна помощь или есть запрос функции?"
+
+#: topbar-countdown-notice.php:536
+msgid "Open in new tab"
+msgstr "Открыть в новой вкладке"
+
+#: topbar-countdown-notice.php:376
+msgid "Padding Bottom (px)"
+msgstr "Отступ Снизу (px)"
+
+#: topbar-countdown-notice.php:386
+msgid "Padding Left (px)"
+msgstr "Отступ Слева (px)"
+
+#: topbar-countdown-notice.php:396
+msgid "Padding Right (px)"
+msgstr "Отступ Справа (px)"
+
+#: topbar-countdown-notice.php:366
+msgid "Padding Top (px)"
+msgstr "Отступ Сверху (px)"
+
+#: topbar-countdown-notice.php:775
+msgid "Quick Tips"
+msgstr "Быстрые Советы"
+
+#: topbar-countdown-notice.php:1359
+msgid "s"
+msgstr "с"
+
+#: topbar-countdown-notice.php:604
+msgid "Same as End Date/Time"
+msgstr "Как Дата/Время Окончания"
+
+#: topbar-countdown-notice.php:624
+msgid "Same as main colors"
+msgstr "Как основные цвета"
+
+#: topbar-countdown-notice.php:765
+msgid "Save Changes"
+msgstr "Сохранить Изменения"
+
+#: topbar-countdown-notice.php:139
+msgid "Scheduling"
+msgstr "Планирование"
+
+#: topbar-countdown-notice.php:788
+msgid "Server Time"
+msgstr "Время Сервера"
+
+#: topbar-countdown-notice.php:486
+msgid "Show alternative content"
+msgstr "Показать альтернативное содержимое"
+
+#: topbar-countdown-notice.php:419
+msgid "Show console.log messages in browser (for debugging)"
+msgstr "Показывать сообщения console.log в браузере (для отладки)"
+
+#: topbar-countdown-notice.php:293
+msgid "Show countdown timer"
+msgstr "Показать таймер обратного отсчёта"
+
+#: topbar-countdown-notice.php:328
+msgid "Show Seconds"
+msgstr "Показать Секунды"
+
+#: topbar-countdown-notice.php:133
+msgid "Show the top bar"
+msgstr "Показать верхнюю панель"
+
+#: topbar-countdown-notice.php:147
+msgid "Start Date/Time"
+msgstr "Дата/Время Начала"
+
+#: topbar-countdown-notice.php:797
+msgid "Support"
+msgstr "Поддержка"
+
+#: topbar-countdown-notice.php:356
+msgid "Text Color"
+msgstr "Цвет Текста"
+
+#: topbar-countdown-notice.php:99
+msgid "Topbar Countdown"
+msgstr "Обратный Отсчёт Верхней Панели"
+
+#. Name of the plugin
+#: topbar-countdown-notice.php:98
+msgid "Topbar Countdown Notice"
+msgstr "Уведомление с Обратным Отсчётом"
+
+#: topbar-countdown-notice.php:778
+msgid "Urgency:"
+msgstr "Срочность:"
+
+#: topbar-countdown-notice.php:778
+msgid "Use the countdown to drive action."
+msgstr "Используйте обратный отсчёт для стимулирования действий."
+
+#: topbar-countdown-notice.php:175
+msgid "When End Date/Time is Reached"
+msgstr "Когда Достигнута Дата/Время Окончания"
+
+#: topbar-countdown-notice.php:591
+msgid "You can use HTML tags like <strong>, <em>, <span>, etc."
+msgstr "Вы можете использовать HTML-теги, такие как <strong>, <em>, <span> и т.д."
