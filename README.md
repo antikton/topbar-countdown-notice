@@ -1,6 +1,6 @@
 # Antikton Topbar Countdown
 
-[![WordPress Plugin Version](https://img.shields.io/badge/version-1.0.9-blue.svg)](https://github.com/antikton/antikton-topbar-countdown)
+[![WordPress Plugin Version](https://img.shields.io/badge/version-1.0.10-blue.svg)](https://github.com/antikton/antikton-topbar-countdown)
 [![WordPress](https://img.shields.io/badge/wordpress-5.0%2B-blue.svg)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/php-7.4%2B-purple.svg)](https://php.net/)
 [![License](https://img.shields.io/badge/license-GPL--2.0%2B-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
