@@ -1,6 +1,6 @@
 # Antikton Topbar Countdown
 
-[![WordPress Plugin Version](https://img.shields.io/badge/version-1.0.10-blue.svg)](https://github.com/antikton/antikton-topbar-countdown)
+[![WordPress Plugin Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/antikton/antikton-topbar-countdown)
 [![WordPress](https://img.shields.io/badge/wordpress-5.0%2B-blue.svg)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/php-7.4%2B-purple.svg)](https://php.net/)
 [![License](https://img.shields.io/badge/license-GPL--2.0%2B-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
@@ -40,7 +40,7 @@ A fully functional WordPress plugin that displays a customizable top bar with op
 
 - **Custom Countdown Target**: Choose between end date or a custom target date
 - **Alternative Colors**: Set different colors for expired content
-- **Custom CSS Support**: Add your own CSS for advanced styling
+- **WordPress Customizer**: Use WordPress Customizer for custom styling
 - **Debug Mode**: Built-in debugging for troubleshooting
 - **Translation Ready**: Full i18n support with text domain
 - **WordPress Standards**: Follows WordPress coding standards and best practices
@@ -187,21 +187,20 @@ composer require antikton/antikton-topbar-countdown
 | **Padding Bottom** | Bottom padding in pixels (default: 12px) |
 | **Padding Left** | Left padding in pixels (default: 20px) |
 | **Padding Right** | Right padding in pixels (default: 20px) |
-| **Custom CSS** | Add custom CSS for advanced styling |
 | **Debug Mode** | Enable console logging for troubleshooting |
 
 ### Available CSS Classes
 
-Use these classes in your Custom CSS field:
+Use these classes in WordPress Customizer (Appearance → Customize → Additional CSS):
 
 ```css
-.tcn-topbar              /* Main bar container */
-.tcn-topbar-inner        /* Inner content wrapper */
-.tcn-content             /* Main content area */
-.tcn-countdown-wrapper   /* Countdown container */
-.tcn-countdown-prefix    /* Countdown prefix text */
-.tcn-countdown           /* Countdown timer */
-.tcn-link                /* Action button/link */
+.antitoco-topbar              /* Main bar container */
+.antitoco-topbar-inner        /* Inner content wrapper */
+.antitoco-content             /* Main content area */
+.antitoco-countdown-wrapper   /* Countdown container */
+.antitoco-countdown-prefix    /* Countdown prefix text */
+.antitoco-countdown           /* Countdown timer */
+.antitoco-link                /* Action button/link */
 ```
 
 ## 📸 Screenshots
@@ -340,6 +339,33 @@ This plugin follows:
 - Security best practices (sanitization, escaping, nonce verification)
 
 ## 📝 Changelog
+
+### Version 1.1.0 (2024-12-18)
+
+**IMPORTANT: WordPress.org Compliance Update**
+
+**Changed:**
+- Class name from `Topbar_Countdown_Notice` to `Antikton_Topbar_Countdown` for uniqueness
+- Prefix from `tcn` to `antitoco` (8 characters) across all functions, options, and CSS classes
+- JavaScript object from `tcnData` to `antitocoData`
+- All AJAX actions now use `antitoco_` prefix
+- All settings groups now use `antitoco_` prefix
+- All CSS classes from `.tcn-*` to `.antitoco-*`
+- All script/style handles from `tcn-*` to `antitoco-*`
+
+**Removed:**
+- Custom CSS functionality per WordPress.org guidelines (use WordPress Customizer instead)
+
+**Improved:**
+- Topbar positioning changed from `fixed` to `relative` for better compatibility
+- All variables properly escaped for enhanced security
+- Admin CSS selectors updated to match new class structure
+
+**Added:**
+- Settings link in plugins list for easier access
+
+**Security:**
+- Comprehensive escaping review - all outputs properly sanitized
 
 ### Version 1.0.10 (2024-12-17)
 
