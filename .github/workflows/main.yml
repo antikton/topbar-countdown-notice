@@ -28,8 +28,12 @@ jobs:
           
           # Extract changelog section from readme.txt
           if [ -f "readme.txt" ]; then
-            # Try to extract the changelog for this specific version
-            CHANGELOG=$(awk "/^= $VERSION =/,/^= [0-9]/" readme.txt | sed '1d;$d' | sed '/^$/d')
+            # Convert Windows line endings to Unix for processing
+            dos2unix readme.txt 2>/dev/null || sed -i 's/\r$//' readme.txt
+            
+            # Extract the changelog for this specific version
+            # Match from "= VERSION =" to the next "= X.X.X =" or end of file
+            CHANGELOG=$(awk "/^= $VERSION =\$/,/^= [0-9]+\.[0-9]+\.[0-9]+ =\$/" readme.txt | sed '1d;$d' | sed '/^$/d')
             
             if [ -n "$CHANGELOG" ]; then
               echo "Found changelog in readme.txt for version $VERSION"
