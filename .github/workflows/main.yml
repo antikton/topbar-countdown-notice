@@ -69,7 +69,6 @@ jobs:
         id: release_notes
         run: |
           VERSION="${{ steps.get_version.outputs.VERSION }}"
-          CHANGELOG="${{ steps.changelog.outputs.CHANGELOG }}"
           
           # Start building release notes
           NOTES="## 🎉 Version $VERSION"
