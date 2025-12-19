@@ -27,23 +27,20 @@ jobs:
           VERSION="${{ steps.get_version.outputs.VERSION }}"
           echo "Extracting changelog for version: $VERSION"
           
-          # Extract changelog section from readme.txt using grep and sed
+          # Extract changelog section from readme.txt
           if [ -f "readme.txt" ]; then
-            # Use grep to find the version section, then sed to extract until next version
-            CHANGELOG=$(grep -A 100 "^= $VERSION =" readme.txt | grep -B 100 "^= [0-9]" | sed '1d;$d' | sed '/^$/d' | sed 's/\r$//')
+            # Write directly to GITHUB_OUTPUT to avoid shell interpretation
+            echo "CHANGELOG<<EOF" >> $GITHUB_OUTPUT
             
-            if [ -n "$CHANGELOG" ]; then
-              echo "✅ Found changelog for version $VERSION"
-              printf '%s\n' "$CHANGELOG"
-              {
-                echo "CHANGELOG<<EOF"
-                printf '%s\n' "$CHANGELOG"
-                echo "EOF"
-              } >> $GITHUB_OUTPUT
-            else
-              echo "⚠️ No changelog found for version $VERSION"
-              echo "CHANGELOG=" >> $GITHUB_OUTPUT
-            fi
+            # Extract lines between version markers and write directly
+            grep -A 100 "^= $VERSION =" readme.txt | \
+              grep -B 100 "^= [0-9]" | \
+              sed '1d;$d' | \
+              sed '/^$/d' | \
+              sed 's/\r$//' >> $GITHUB_OUTPUT
+            
+            echo "EOF" >> $GITHUB_OUTPUT
+            echo "✅ Changelog extracted for version $VERSION"
           else
             echo "❌ readme.txt not found"
             echo "CHANGELOG=" >> $GITHUB_OUTPUT
