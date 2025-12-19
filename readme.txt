@@ -3,7 +3,7 @@ Contributors: antikton
 Tags: topbar, countdown, notice, notification, schedule
 Requires at least: 5.0
 Tested up to: 6.9
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -60,6 +60,12 @@ Absolutely! This is a popular use case. Set up a countdown to build anticipation
 6. Appearance settings panel - customize colors, padding, and styling
 
 == Changelog ==
+
+= 1.1.1 =
+*   Updated: Modern, eye-catching plugin banners with updated "Antikton Topbar Countdown" branding
+*   Improved: GitHub Actions workflow now automatically extracts changelog from readme.txt
+*   Improved: GitHub Actions now generates plugin ZIP file and attaches it to releases
+*   Improved: Enhanced release notes generation with version-specific changelog integration
 
 = 1.1.0 =
 *   **IMPORTANT:** WordPress.org compliance update - All functionality preserved

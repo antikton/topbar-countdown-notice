@@ -1,6 +1,6 @@
 # Antikton Topbar Countdown
 
-[![WordPress Plugin Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/antikton/antikton-topbar-countdown)
+[![WordPress Plugin Version](https://img.shields.io/badge/version-1.1.1-blue.svg)](https://github.com/antikton/antikton-topbar-countdown)
 [![WordPress](https://img.shields.io/badge/wordpress-5.0%2B-blue.svg)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/php-7.4%2B-purple.svg)](https://php.net/)
 [![License](https://img.shields.io/badge/license-GPL--2.0%2B-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
@@ -339,6 +339,14 @@ This plugin follows:
 - Security best practices (sanitization, escaping, nonce verification)
 
 ## 📝 Changelog
+
+### Version 1.1.1 (2024-12-19)
+
+**Updated:**
+- Modern, eye-catching plugin banners with updated "Antikton Topbar Countdown" branding
+- GitHub Actions workflow now automatically extracts changelog from readme.txt
+- GitHub Actions now generates plugin ZIP file and attaches it to releases
+- Enhanced release notes generation with version-specific changelog integration
 
 ### Version 1.1.0 (2024-12-18)
 

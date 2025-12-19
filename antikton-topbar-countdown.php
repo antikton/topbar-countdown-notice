@@ -3,7 +3,7 @@
  * Plugin Name: Antikton Topbar Countdown
  * Plugin URI: https://github.com/antikton/antikton-topbar-countdown
  * Description: Display a customizable top bar with optional countdown timer and scheduling capabilities.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: Eduardo Pagán
  * Author URI: https://github.com/antikton
  * Text Domain: antikton-topbar-countdown
@@ -25,7 +25,7 @@ class Antikton_Topbar_Countdown {
 	/**
 	 * Plugin version
 	 */
-	const VERSION = '1.1.0';
+	const VERSION = '1.1.1';
 
 	/**
 	 * Option name for settings
