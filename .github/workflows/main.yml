@@ -70,23 +70,23 @@ jobs:
         run: |
           VERSION="${{ steps.get_version.outputs.VERSION }}"
           
-          # Start building release notes
-          NOTES="## 🎉 Version $VERSION"
-          NOTES="$NOTES\n\n"
-          
-          # Add changelog if available
-          if [ -n "$CHANGELOG" ]; then
-            NOTES="$NOTES### 📋 Changelog\n\n"
-            NOTES="$NOTES$CHANGELOG\n\n"
-          fi
-          
-          # Add auto-generated notes
-          NOTES="$NOTES### 📝 Commits in this release\n\n"
-          NOTES="$NOTES_See the full list of changes below._\n\n"
-          
-          echo "NOTES<<EOF" >> $GITHUB_OUTPUT
-          echo -e "$NOTES" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          # Write release notes directly to GITHUB_OUTPUT using heredoc
+          {
+            echo "NOTES<<EOF"
+            echo "## 🎉 Version $VERSION"
+            echo ""
+            echo "### 📋 Changelog"
+            echo ""
+            cat <<'CHANGELOG_END'
+${{ steps.changelog.outputs.CHANGELOG }}
+CHANGELOG_END
+            echo ""
+            echo "### 📝 Commits in this release"
+            echo ""
+            echo "_See the full list of changes below._"
+            echo ""
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
