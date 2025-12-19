@@ -34,10 +34,12 @@ jobs:
             
             if [ -n "$CHANGELOG" ]; then
               echo "✅ Found changelog for version $VERSION"
-              echo "$CHANGELOG"
-              echo "CHANGELOG<<EOF" >> $GITHUB_OUTPUT
-              echo "$CHANGELOG" >> $GITHUB_OUTPUT
-              echo "EOF" >> $GITHUB_OUTPUT
+              printf '%s\n' "$CHANGELOG"
+              {
+                echo "CHANGELOG<<EOF"
+                printf '%s\n' "$CHANGELOG"
+                echo "EOF"
+              } >> $GITHUB_OUTPUT
             else
               echo "⚠️ No changelog found for version $VERSION"
               echo "CHANGELOG=" >> $GITHUB_OUTPUT
